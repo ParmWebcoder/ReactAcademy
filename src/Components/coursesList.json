@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "img":  "../assets/images/courses1.png", 
+        "img":  "./assets/images/courses1.png", 
         "title": "Learn Marketing from Top Instructors.",
         "rating": " 4.5",
         "star": " ../assets/images/star.svg",
