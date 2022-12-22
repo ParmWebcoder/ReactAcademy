@@ -17,8 +17,8 @@ import courses1 from '../assets/images/courses1.png';
 import rate from '../assets/images/star.svg' ;
 
 
-import JsonData from './CoursesList.json'
-import { toHaveAccessibleName } from '@testing-library/jest-dom/dist/matchers';
+//import JsonData from './CoursesList.json'
+//import { toHaveAccessibleName } from '@testing-library/jest-dom/dist/matchers';
  
 
 
