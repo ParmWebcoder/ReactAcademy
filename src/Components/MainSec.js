@@ -17,10 +17,9 @@ import courses1 from '../assets/images/courses1.png';
 import rate from '../assets/images/star.svg' ;
 
 
-import JsonData from './coursesList.json'
+import JsonData from './CoursesList.json'
 import { toHaveAccessibleName } from '@testing-library/jest-dom/dist/matchers';
-
-
+ 
 
 
 
@@ -271,7 +270,8 @@ class CourseDatadisplay extends React.Component{
       // ComponentDidMount is used to execute the code
 
       componentDidMount(){
-        fetch("Components/coursesList.json")
+       fetch("https://raw.githubusercontent.com/ParmWebcoder/json-test-api/main/src/Components/coursesList.json")
+        
         .then( (response) => response.json())
         .then( (json) => { this.setState({ cards: json, DataisLoaded: true });
       })
@@ -284,7 +284,7 @@ class CourseDatadisplay extends React.Component{
         return(
                 <Row>
 
-                 {
+                 { 
                   cards.map( (card) => (
                     <Col lg='4'>
                     <div   className="coursesData">

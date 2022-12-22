@@ -1,47 +1,13 @@
-[
+[ 
     {
         "id": 1,
-        "img":  "../assets/images/courses1.png", 
+        "img":  "courses1.png", 
         "title": "Learn Marketing from Top Instructors.",
         "rating": " 4.5",
-        "star": " ../assets/images/star.svg",
+        "star": " ./images/star.svg",
         "week": "6 Weeks",
         "users": "1.5k Students",
-        "userIcon": "../assets/images/users.svg",
-        "price": "30.5$"  
-    },
-    {
-        "id": 1,
-        "img":  "../assets/images/courses1.png", 
-        "title": "Learn Marketing from Top Instructors.",
-        "rating": " 4.5",
-        "star": " ../assets/images/star.svg",
-        "week": "6 Weeks",
-        "users": "1.5k Students",
-        "userIcon": "../assets/images/users.svg",
-        "price": "30.5$"  
-    },
-    {
-        "id": 1,
-        "img":  "../assets/images/courses1.png", 
-        "title": "Learn Marketing from Top Instructors.",
-        "rating": " 4.5",
-        "star": " ../assets/images/star.svg",
-        "week": "6 Weeks",
-        "users": "1.5k Students",
-        "userIcon": "../assets/images/users.svg",
-        "price": "30.5$"  
-    },
-    {
-        "id": 2,
-        "img": "../assets/images/courses1.png",
-        "title": "Learn Marketing from Top Instructors.",
-        "rating": " 4.5",
-        "star": " ../assets/images/star.svg",
-        "week": "6 Weeks",
-        "users": "1.5k Students",
-        "userIcon": "../assets/images/users.svg",
+        "userIcon": "./images/users.svg",
         "price": "30.5$"  
     }
-    
 ]
