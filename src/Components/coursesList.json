@@ -1,7 +1,7 @@
 [
         {
             "id": 1,
-            "img":  "https://github.com/ParmWebcoder/json-test-api/blob/main/src/assets/images/courses1.png", 
+            "img":  "https://raw.githubusercontent.com/ParmWebcoder/json-test-api/main/src/assets/images/courses1.png", 
             "title": "Learn Marketing from Top Instructors.",
             "rating": " 4.5",
             "star": " ../assets/images/star.svg",
@@ -12,7 +12,7 @@
         },
         {
             "id": 1,
-            "img":  "https://github.com/ParmWebcoder/json-test-api/blob/main/src/assets/images/courses1.png", 
+            "img":  "https://raw.githubusercontent.com/ParmWebcoder/json-test-api/main/src/assets/images/courses1.png", 
             "title": "Learn Marketing from Top Instructors.",
             "rating": " 4.5",
             "star": " ../assets/images/star.svg",
