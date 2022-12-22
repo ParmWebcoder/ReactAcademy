@@ -1,8 +1,7 @@
 [
-<<<<<<< HEAD
         {
             "id": 1,
-            "img":  "https://raw.githubusercontent.com/ParmWebcoder/json-test-api/changes-22/src/assets/images/courses1.png", 
+            "img":  "../assets/images/courses1.png", 
             "title": "Learn Marketing from Top Instructors.",
             "rating": " 4.5",
             "star": " ../assets/images/star.svg",
@@ -13,7 +12,7 @@
         },
         {
             "id": 1,
-            "img":  "https://raw.githubusercontent.com/ParmWebcoder/json-test-api/changes-22/src/assets/images/courses1.png", 
+            "img":  "../assets/images/courses1.png", 
             "title": "Learn Marketing from Top Instructors.",
             "rating": " 4.5",
             "star": " ../assets/images/star.svg",
@@ -24,7 +23,7 @@
         },
         {
             "id": 1,
-            "img":  "https://raw.githubusercontent.com/ParmWebcoder/json-test-api/changes-22/src/assets/images/courses1.png", 
+            "img":  "../assets/images/courses1.png", 
             "title": "Learn Marketing from Top Instructors.",
             "rating": " 4.5",
             "star": " ../assets/images/star.svg",
@@ -35,7 +34,7 @@
         },
         {
             "id": 2,
-            "img": "https://raw.githubusercontent.com/ParmWebcoder/json-test-api/changes-22/src/assets/images/courses1.png",
+            "img": "../assets/images/courses1.png",
             "title": "Learn Marketing from Top Instructors.",
             "rating": " 4.5",
             "star": " ../assets/images/star.svg",
@@ -46,51 +45,3 @@
         }
         
     ]
-=======
-    {
-        "id": 1,
-        "img":  "https://raw.githubusercontent.com/ParmWebcoder/json-test-api/changes-22/src/assets/images/courses1.png", 
-        "title": "Learn Marketing from Top Instructors.",
-        "rating": " 4.5",
-        "star": " ../assets/images/star.svg",
-        "week": "6 Weeks",
-        "users": "1.5k Students",
-        "userIcon": "../assets/images/users.svg",
-        "price": "30.5$"  
-    },
-    {
-        "id": 1,
-        "img":  "../assets/images/courses1.png", 
-        "title": "Learn Marketing from Top Instructors.",
-        "rating": " 4.5",
-        "star": " ../assets/images/star.svg",
-        "week": "6 Weeks",
-        "users": "1.5k Students",
-        "userIcon": "../assets/images/users.svg",
-        "price": "30.5$"  
-    },
-    {
-        "id": 1,
-        "img":  "../assets/images/courses1.png", 
-        "title": "Learn Marketing from Top Instructors.",
-        "rating": " 4.5",
-        "star": " ../assets/images/star.svg",
-        "week": "6 Weeks",
-        "users": "1.5k Students",
-        "userIcon": "../assets/images/users.svg",
-        "price": "30.5$"  
-    },
-    {
-        "id": 2,
-        "img": "../assets/images/courses1.png",
-        "title": "Learn Marketing from Top Instructors.",
-        "rating": " 4.5",
-        "star": " ../assets/images/star.svg",
-        "week": "6 Weeks",
-        "users": "1.5k Students",
-        "userIcon": "../assets/images/users.svg",
-        "price": "30.5$"  
-    }
-    
-]
->>>>>>> fcc542afeb22b87ec61475307a5a131f681c0e2b
