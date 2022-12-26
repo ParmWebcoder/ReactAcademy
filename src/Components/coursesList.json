@@ -11,7 +11,7 @@
             "price": "30.5$"  
         },
         {
-            "id": 1,
+            "id": 2,
             "img":  "https://raw.githubusercontent.com/ParmWebcoder/json-test-api/main/src/assets/images/courses1.png", 
             "title": "Learn Marketing from Top Instructors.",
             "rating": " 4.5",
@@ -22,7 +22,7 @@
             "price": "30.5$"  
         },
         {
-            "id": 1,
+            "id": 3,
             "img":  "https://raw.githubusercontent.com/ParmWebcoder/json-test-api/main/src/assets/images/courses1.png", 
             "title": "Learn Marketing from Top Instructors.",
             "rating": " 4.5",
@@ -33,7 +33,7 @@
             "price": "30.5$"  
         },
         {
-            "id": 1,
+            "id": 4,
             "img":  "https://raw.githubusercontent.com/ParmWebcoder/json-test-api/main/src/assets/images/courses1.png", 
             "title": "Learn Marketing from Top Instructors.",
             "rating": " 4.5",
@@ -44,7 +44,7 @@
             "price": "30.5$"  
         },
         {
-            "id": 1,
+            "id": 5,
             "img":  "https://raw.githubusercontent.com/ParmWebcoder/json-test-api/main/src/assets/images/courses1.png", 
             "title": "Learn Marketing from Top Instructors.",
             "rating": " 4.5",
@@ -55,7 +55,7 @@
             "price": "30.5$"  
         },
         {
-            "id": 2,
+            "id": 6,
             "img": "https://raw.githubusercontent.com/ParmWebcoder/json-test-api/main/src/assets/images/courses1.png",
             "title": "Learn Marketing from Top Instructors.",
             "rating": " 4.5",
