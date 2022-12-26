@@ -2,12 +2,10 @@
 import React from 'react';
 
 
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 
-import Button from 'react-bootstrap/Button';
-// import Stack from 'react-bootstrap/Stack';
+import { Button, Container, Row ,Col} from "react-bootstrap";
+
+
 
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -15,9 +13,23 @@ import Navbar from 'react-bootstrap/Navbar';
 // import Offcanvas from 'react-bootstrap/Offcanvas';
 
 import logo from '../assets/images/logo.png';
+// import {render} from '@testing-library/react'
 
 
+      // Navbar dynamic 
 
+  function NavName(){  
+        const  navName = ["Home" , "Courses", "Instructors", "Schedules", "Contact Us"];
+        return (  
+                navName.map( (navs) => (
+                    <Nav.Link className='navLink' href="#">  {navs} </Nav.Link>
+            )) 
+        );
+    }
+   
+  
+
+      
 
 function NavBar()
 {
@@ -43,15 +55,13 @@ function NavBar()
         <Navbar.Collapse id="responsive-navbar-nav">
 
 
-<Nav navbarScroll className="me-auto mar-cus">
-            <Nav.Link className='navLink' href="#">Home</Nav.Link>
-            <Nav.Link className='navLink' href="#">Courses</Nav.Link>
-            <Nav.Link className='navLink' href="#">Instuctors </Nav.Link>
-            <Nav.Link className='navLink' href="#">Schedules </Nav.Link>
-            <Nav.Link className='navLink' href="#">Contact Us </Nav.Link>
-        
+         <Nav navbarScroll className="me-auto mar-cus">
+
+            {/* Navbar Maped  */}
+                <NavName/>
           </Nav>
 
+          
 
           
           <Nav className='gap-3'>

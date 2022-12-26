@@ -12,14 +12,10 @@ import image2 from '../assets/images/image2.jpg';
 import image3 from '../assets/images/image3.jpg';
 import image4 from '../assets/images/image4.png';
 
-import courses1 from '../assets/images/courses1.png';
-
-import rate from '../assets/images/star.svg' ;
 
 
-//import JsonData from './CoursesList.json'
-//import { toHaveAccessibleName } from '@testing-library/jest-dom/dist/matchers';
- 
+import Balancer from 'react-wrap-balancer';
+
 
 
 
@@ -28,7 +24,7 @@ function MainSec (){
 <>
           <Container className='crousel-sec'>
             <div className='crousel-title d-flex justify-content-md-between '>
-                <h2> Choose favourite course from top cartegories</h2>
+              <Balancer ratio={0.7}>  <h2> Choose favourite course from top cartegories</h2></Balancer> 
                 <p> See all</p>
             </div>
 
@@ -248,8 +244,8 @@ function MainSec (){
 //    </Col>
 
 // 			)
-// 		}
-// 	)
+// 		} 
+// 	) 
 
 // 	return(
 // 		<Row>		
