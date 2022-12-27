@@ -39,19 +39,19 @@ function NavBar()
 <div className='main-Header'>
     <header className=''>
    
-<Container>
 
 
 
-    <Navbar collapseOnSelect expand="lg" bg="" className='text-black navBar-style' variant="light">
-     
+    <Navbar collapseOnSelect expand="lg" bg="white" className='text-black navBar-style'  variant="light"  fixed='top'>
+     <Container>
+
      <Navbar.Brand href="#">
         <img alt="" src={logo} className="d-inline-block align-top"/>
         </Navbar.Brand>
     
         
 
-        <Navbar.Toggle  aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle   aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
 
 
@@ -77,10 +77,10 @@ function NavBar()
           </Nav>
           
         </Navbar.Collapse>
-     
+     </Container>
     </Navbar>
 
-</Container>
+
 
     </header>
     
