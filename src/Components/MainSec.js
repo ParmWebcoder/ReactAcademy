@@ -27,8 +27,9 @@ function MainSec (){
          <div className="crousel-title d-flex justify-content-md-between ">
            <Balancer ratio={0.7}>
              {" "}
-             <h2> Choose favourite course from top cartegories</h2>
+             <div><h2> Choose favourite course from top cartegories</h2></div>
            </Balancer>
+          
            <p> See all</p>
          </div>
        </Container>

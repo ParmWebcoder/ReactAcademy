@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 //import { Routes, Route ,Switch} from "react-router-dom"
 
-import { BrowserRouter as Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import About from "./pages/About.js"
 import './mainScss/MainStyle.css';
@@ -28,7 +28,7 @@ export default function App() {
            <Route path="about" element={ <About/> } />
       
       </Routes>
-     
+   
      
 
       
