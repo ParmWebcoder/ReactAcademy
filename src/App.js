@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 //import { Routes, Route ,Switch} from "react-router-dom"
 
-import { BrowserRouter as Router,  Routes, Route } from "react-router-dom";
+import {   Routes, Route } from "react-router-dom";
 
 import About from "./pages/About.js";
 import './mainScss/MainStyle.css';
@@ -20,18 +20,22 @@ export default function App() {
  
   
       <NavBar/>
-<Router> 
+{/* <Router>  */}
 
 
       <Routes>
         
         
          {/* <Route exact path="/" component={MainSec} /> */}
-           <Route path="about" element={ <About/> } />
+           <Route exact path="/" />
+           <Route path="/about" element={ <About/> } />
+
+       
       
       </Routes>
       
-    </Router>
+     
+    {/* </Router> */}
      
 
       
