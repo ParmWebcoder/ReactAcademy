@@ -1,9 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 //import { Routes, Route ,Switch} from "react-router-dom"
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router,  Routes,Switch, Route } from "react-router-dom";
 
-import About from "./pages/About.js"
+import About from "./pages/About.js";
 import './mainScss/MainStyle.css';
 // import './App.css';
 import NavBar from './Components/TopHeader.js';
@@ -18,9 +18,11 @@ export default function App() {
 
     <div id="Main" className="App">
  
-        
+  
       <NavBar/>
+<Router> 
 
+<Switch>
       <Routes>
         
         
@@ -28,7 +30,8 @@ export default function App() {
            <Route path="about" element={ <About/> } />
       
       </Routes>
-   
+      </Switch>
+    </Router>
      
 
       
@@ -36,6 +39,7 @@ export default function App() {
       <MainSec/>
      
       <Footer/>
+     
     </div>
 </>
 
