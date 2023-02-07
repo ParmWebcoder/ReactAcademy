@@ -20,7 +20,7 @@ function FooterBottom(){
 			<Container className='d-flex topfooterContainer'>
                    <Col lg='5'>
 					  <div className='topFooterImg'>
-						   <img  src={topfooterBG} />					  
+						   <img alt='footerimg' src={topfooterBG} />					  
 					  </div>
 				   </Col>
 				   <Col lg={{ span: 6, offset: 1 }} >
@@ -114,7 +114,7 @@ function BottomNav(){
     return (   
 		navBottomOne.map( (navOne, id1) => (
 					  <div key={id1}>
-                        	<a href='#' > {navOne} </a>
+                        	<a href='/' > {navOne} </a>
 							
 					 </div>
 	))  
@@ -125,7 +125,7 @@ function BottomNav2(){
 	 return (   
 		 navBottomtwo.map( (navtwo, id2) => (
 					   <div key={id2}>
-							 <a href='#'  > {navtwo} </a>
+							 <a href='/'  > {navtwo} </a>
   
 					  </div>
 	 ))  
@@ -136,7 +136,7 @@ function BottomNav2(){
 	 return (   
 		 navBottom3.map( (nav3, id3) => (
 					   <div key={id3}>
-							 <a href='#' > {nav3} </a>
+							 <a href='/' > {nav3} </a>
   
 					  </div>
 	 ))  
@@ -147,7 +147,7 @@ function BottomNav2(){
 	 return (   
 		 navBottom4.map( (nav4, id4) => (
 					   <div key={id4}>
-							 <a href='#' > {nav4} </a>
+							 <a href='/' > {nav4} </a>
   
 					  </div>
 	 ))  
@@ -158,7 +158,7 @@ function BottomNav2(){
 	 return (   
 		 navBottom5.map( (nav5, id5) => (
 					   <div key={id5}>
-							 <a  href='#'> {nav5} </a>
+							 <a  href='/'> {nav5} </a>
   
 					  </div>
 	 ))  
