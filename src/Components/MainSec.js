@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-import { Button, Card, Container, Row ,Col} from "react-bootstrap";
+import {  Card, Container, Row ,Col} from "react-bootstrap";
 
 
 import Carousel from 'better-react-carousel';
@@ -16,7 +16,7 @@ import Image5 from '../assets/images/img-edu.png';
 
 import Balancer from 'react-wrap-balancer';
 
-
+import unspa1 from '../assets/images/unsplash1.png';
 
 
 function MainSec (){
@@ -192,8 +192,7 @@ function MainSec (){
                  xmlns="http://www.w3.org/2000/svg"
                >
                  <path
-                   fill-rule="evenodd"
-                   clip-rule="evenodd"
+                  
                    d="M15.25 1.06255L9.00003 10.4376L2.75003 1.06255C2.66795 0.939437 2.56243 0.833694 2.43949 0.75136C2.31654 0.669026 2.17859 0.611714 2.0335 0.582696C1.88841 0.553678 1.73902 0.553523 1.59387 0.582238C1.44872 0.610952 1.31064 0.667975 1.18753 0.750051C1.06441 0.832128 0.958669 0.937649 0.876335 1.06059C0.794002 1.18353 0.73669 1.32149 0.707672 1.46658C0.678653 1.61167 0.678497 1.76106 0.707211 1.90621C0.735926 2.05136 0.79295 2.18944 0.875026 2.31255L7.96003 12.9401C8.07418 13.1112 8.22883 13.2516 8.41025 13.3487C8.59168 13.4458 8.79426 13.4966 9.00003 13.4966C9.20579 13.4966 9.40838 13.4458 9.5898 13.3487C9.77122 13.2516 9.92587 13.1112 10.04 12.9401L17.125 2.31255C17.2071 2.18944 17.2641 2.05136 17.2928 1.90621C17.3216 1.76106 17.3214 1.61167 17.2924 1.46658C17.2634 1.32149 17.2061 1.18353 17.1237 1.06059C17.0414 0.937649 16.9356 0.832128 16.8125 0.750051C16.6894 0.667975 16.5513 0.610952 16.4062 0.582238C16.261 0.553523 16.1116 0.553678 15.9666 0.582696C15.8215 0.611714 15.6835 0.669026 15.5606 0.75136C15.4376 0.833694 15.3321 0.939437 15.25 1.06255Z"
                    fill="white"
                  />
@@ -218,7 +217,7 @@ function MainSec (){
              <div className="crousel-main">
                <div className="crousel-main-start">
                 
-                 
+               
                      <LearnNewSkills/>
 
                 
@@ -231,7 +230,7 @@ function MainSec (){
 
 
 {/* Good Education Section */}
-        <div className="newSkills">
+        <div className="newSkills" style={{margin:'0px 0px 192px 0px'}}>
            <div className="courses-title d-flex justify-content-md-between ">
              <h2> We Bring The Good Education To Life</h2>
            </div>
@@ -251,7 +250,7 @@ function MainSec (){
               <div className='do-work-text-icon d-flex'>
               <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="50" height="50" rx="25" fill="#DDFFFF"/>
-<g clip-path="url(#clip0_1_1676)">
+<g >
 <path d="M14.5 17.2419C15.8275 16.6869 17.731 16.0884 19.582 15.9024C21.577 15.7014 23.269 15.9969 24.25 17.0304V31.6494C22.8475 30.8544 21.07 30.7449 19.4305 30.9099C17.6605 31.0899 15.8755 31.6014 14.5 32.1264V17.2419ZM25.75 17.0304C26.731 15.9969 28.423 15.7014 30.418 15.9024C32.269 16.0884 34.1725 16.6869 35.5 17.2419V32.1264C34.123 31.6014 32.3395 31.0884 30.5695 30.9114C28.9285 30.7449 27.1525 30.8529 25.75 31.6494V17.0304ZM25 15.6744C23.5225 14.4039 21.3805 14.2149 19.4305 14.4099C17.1595 14.6394 14.8675 15.4179 13.4395 16.0674C13.3085 16.127 13.1974 16.2231 13.1194 16.3441C13.0415 16.4651 13 16.606 13 16.7499V33.2499C13 33.3754 13.0316 33.4989 13.0917 33.6091C13.1518 33.7192 13.2386 33.8125 13.3441 33.8804C13.4496 33.9483 13.5705 33.9887 13.6957 33.9978C13.8208 34.0069 13.9463 33.9844 14.0605 33.9324C15.3835 33.3324 17.515 32.6109 19.5805 32.4024C21.694 32.1894 23.4655 32.5329 24.415 33.7179C24.4853 33.8055 24.5743 33.8762 24.6756 33.9248C24.7768 33.9734 24.8877 33.9986 25 33.9986C25.1123 33.9986 25.2232 33.9734 25.3244 33.9248C25.4257 33.8762 25.5147 33.8055 25.585 33.7179C26.5345 32.5329 28.306 32.1894 30.418 32.4024C32.485 32.6109 34.618 33.3324 35.9395 33.9324C36.0537 33.9844 36.1792 34.0069 36.3043 33.9978C36.4295 33.9887 36.5504 33.9483 36.6559 33.8804C36.7614 33.8125 36.8482 33.7192 36.9083 33.6091C36.9684 33.4989 37 33.3754 37 33.2499V16.7499C37 16.606 36.9585 16.4651 36.8806 16.3441C36.8026 16.2231 36.6915 16.127 36.5605 16.0674C35.1325 15.4179 32.8405 14.6394 30.5695 14.4099C28.6195 14.2134 26.4775 14.4039 25 15.6744Z" fill="#09B451"/>
 </g>
 <defs>
@@ -298,6 +297,37 @@ function MainSec (){
   
 
 
+
+{/* Meet Our Instructor */}
+
+<div className="newSkills" style={{margin:'0px 0px 192px 0px'}}>
+           <div className="courses-title d-flex justify-content-md-between ">
+             <h2> Meet our instructors </h2>
+           </div>
+          
+           <Row className='instCards'>
+           {Array.from({ length: 3 }).map((_, idx) => (
+        <Col lg='4' key={idx} style={{position:'relative'}}>
+  
+           {/* <img className='imgHide' alt='img' src={unspa1} /> */}
+            
+          <Card>
+            <Card.Img variant="top" src={unspa1} />
+            <Card.Body>
+              <Card.Title>John Mark</Card.Title>
+              
+              <Card.Subtitle> Senior Developer</Card.Subtitle>
+              <Card.Text>
+              “Education will be for you what you want it to be” 
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+           ))}
+           </Row>
+         </div>
+
+
        </Container>
      </>
    );
@@ -315,36 +345,57 @@ class LearnNewSkills extends React.Component{
   constructor(props){
     super(props);
     this.state = { cards: [], DataisLoaded: false};
+    
   }
 
-  // ComponentDidMount is used to execute the code
+  // ComponentDidMount is used to execute the code with async await 
 
-  componentDidMount(){
-   fetch("https://raw.githubusercontent.com/ParmWebcoder/json-test-api/main/src/Components/coursesList.json")
+  async componentDidMount(){
+    const message =document.getElementById('errors');
+  
+    try{
+  //  fetch("https://raw.githubusercontent.com/ParmWebcoder/json-test-api/main/src/Components/coursesList.json")
     
-    .then( (response) => response.json())
-    .then( (json) => { this.setState({ cards: json, DataisLoaded: true });
-  })
+  //   .then( (response) => response.json())
+  //   .then( (json) => { 
+  //     this.setState({ cards: json, DataisLoaded: true }); 
+  //   })
+
+  const response = await fetch("https://raw.githubusercontent.com/ParmWebcoder/json-test-api/main/src/Components/coursesList.json");
+  const json = await response.json();
+  
+  this.setState({ cards: json, DataisLoaded: true });
+  
+}
+     catch(error) {
+     
+      message.innerHTML = "<span style='color: red ; text-align:center;margin: 0 auto;width: 100%;display: block;'> Some Error accure while Fetching API From Server </span>" ;
+    }
   }
 
   render(){
     const { DataisLoaded, cards } = this.state;
-    if(!DataisLoaded) return <div> <h2> Pleses wait some time.... </h2> </div> ;
-
-
-
-  
-    
+    if(!DataisLoaded)
+    { 
+      return  <div >    <h2>Pleses wait some time....</h2>  <h4 id="errors"> </h4></div> ; 
+    }
+else{
+ 
     return(
 
             <Row >
+              
                <div className="crousel-main-start">
-               <Carousel cols={4} rows={1} gap={32} loop={true}>
+
+             
+
+
+               <Carousel  cols={4} rows={1} gap={32} loop={true}>
              { 
-              cards.map( (card) => (
+              cards.map( (card, id) => (
                 
               
-                <Carousel.Item>
+                <Carousel.Item  key="{id}">
                
                 <div   className="coursesData">
                  <img  className="avatar" src={card.img} alt='name' />
@@ -369,10 +420,9 @@ class LearnNewSkills extends React.Component{
               </div>
             </Row>
     );
-
+            }
   }
 }
-
 
 
 
@@ -407,11 +457,11 @@ class CourseDatadisplay extends React.Component{
 
                 <Row >
                  { 
-                  cards.map( (card) => (
+                  cards.map( (card, id) => (
                     
                   
  
-                    <Col key={card.id}  lg='4'>
+                    <Col key={id}  lg='4' >
                     <div   className="coursesData">
                      <img  className="avatar" src={card.img} alt='name' />
                       <div className="courses-name d-flex justify-content-between">

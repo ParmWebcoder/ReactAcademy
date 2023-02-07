@@ -445,3 +445,178 @@ font-size: 20px;
 line-height: 30px;
 color: #333333;
 }
+.footerBg{
+  background-color: #000;
+}
+.fooSpace{
+  padding: 120px 0px 52px 0px;
+}
+.fooSpace p{  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+  margin-top: 30px;
+  color: #FFFFFF;
+}
+.bottomManu a{
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 25px;
+text-transform: capitalize;
+color: #FFFFFF;
+margin-bottom: 8px;
+display: flex;
+text-decoration: none;
+}
+.subs-text{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+color: #FFFFFF;
+text-align: center;
+display: block;
+margin-bottom: 17px;
+}
+.input-style{
+  flex: 0 0 70.5%;
+margin-left: 25px;
+height: 52px;
+border-radius: 0;
+}
+.input-style::placeholder {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 21px;
+color: #3BD27B;
+}
+.subsBtn{
+  border-radius: 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+  padding: 14px 28px 14px 28px;
+  background: #3bd27b;
+  border: 0;
+}
+.form-marBot{
+  margin-bottom: 52px;
+  margin-top: 100px;
+}
+.topFooter{
+
+  background: url('../assets/images/image-10.jpg');
+}
+.topFooter::after {
+  position: absolute;
+  content: "";
+  background: #000000c7;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.topFooterImg img{
+  z-index: 1;
+position: relative;
+border-radius: 40px;
+margin-top: -57px;
+width: 100%;
+margin-bottom: 72px;
+height: 517px;
+width: 513px;
+}
+.topfooterContainer{
+  padding: 0;
+  z-index: 1;
+  position: relative;
+}
+.firstStep h2{
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 57px;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.firstStep {
+  margin-top: 41px;
+}
+.firstStep p{
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 33px;
+text-transform: capitalize;
+color: #FFFFFF;
+margin-top: 24px;
+padding: 0;
+margin-bottom: 0;
+}
+.btnTwo{
+  padding: 93px 0px 76px 0px;
+}
+.instCards .card-img-top {
+  width: 113px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.instCards .card-body {
+  text-align: center;
+}
+.instCards{
+  margin-top: 64px;
+}
+.instCards .card {
+  filter: drop-shadow(0px 0px 20px rgba(203, 203, 203, 0.25));
+  border-radius: 5.98779px;
+  border: none;
+}
+.instCards .card-subtitle.h6 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 136.5%;
+  text-align: center;
+  color: #09B451;
+  margin-top: 6px;
+}
+.instCards .card-title.h5 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 136.5%;
+  text-align: center;
+  color: #333333;
+  margin-top: 16px;
+}
+.instCards .card-text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
+  padding: 35px 44px 61px 34px;
+  margin-top: 0 !important;
+}
+.imgHide{
+    
+}  
