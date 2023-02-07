@@ -1,7 +1,7 @@
 
 import React from 'react';
 import {NavLink} from "react-router-dom";
-import { Button, Container, Row ,Col} from "react-bootstrap";
+import { Button, Container} from "react-bootstrap";
 
 // import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 // import About from '../pages/About';

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Card, Container, Row ,Col, Form} from "react-bootstrap";
+import { Button,  Container, Row ,Col, Form} from "react-bootstrap";
 
 import logo from '../assets/images/WiSchool.png';
 
